@@ -76,7 +76,6 @@ body {
     background-image: linear-gradient(253deg, rgba(254,39,94,0) 7%, #163275 72%), url(imagens/53032953940_51554d911f_o.webp);
     background-size: 90% auto, cover;
     background-repeat: no-repeat;
-
     position: sticky;
     top: 0;
     left: 0;
@@ -116,6 +115,7 @@ body {
 /* Segunda seção*/
 
 #section2 {
+    scroll-snap-align: start;
     background-color: #060606;
     font-size: 32px;
     display: flex;
@@ -249,6 +249,7 @@ body {
     left: -45%;
 }
 
+
 /* Footer seção*/
 
 .footer img {
@@ -290,12 +291,22 @@ body {
             width: 100%;
 
         }
+
+        /* Segunda seção*/
+        .scroll-message {
+            z-index: 1;
+            height: 190px;
+        }
+        .scroll-message img{
+            width: 50px;
+        }
         .scroll-message p {
             color: #fff;
             font-size: 15px;
+            display: flex;
+            align-items: center;
         }
-
-        /* Segunda seção*/
+        
 
         .texto-s2{
             padding: 32px;
@@ -444,4 +455,8 @@ body {
             z-index: 998;
             display: none;
         }
+}
+
+.escudos, .conteiner1, .col2{
+    visibility: hidden;
 }
