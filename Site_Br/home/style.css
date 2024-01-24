@@ -73,7 +73,7 @@ body {
     display: grid;
     align-content: space-evenly;
     height: 96vh;
-    background-image: linear-gradient(253deg, rgba(254,39,94,0) 7%, #163275 72%), url(imagens/53032953940_51554d911f_o.webp);
+    background-image: linear-gradient(253deg, rgba(254,39,94,0) 7%, #163275 72%), url(/Site_Br/imagens/53032953940_51554d911f_o.webp);
     background-size: 90% auto, cover;
     background-repeat: no-repeat;
     position: sticky;
@@ -214,7 +214,7 @@ body {
     align-items: center;
     position: absolute;
     top: 18vh;
-    left: 92vh;
+    left: 85vh;
     z-index: 1;
 }
 .col1 img{
@@ -226,6 +226,9 @@ body {
     font-size: 50px;
     position: absolute;
     left: 85px;
+}
+.texto-titulo span{
+    font-weight: 50;
 }
 .col2{
     display: flex;
@@ -381,6 +384,7 @@ body {
         .col2 img{
             height: 50%;
         }
+
         /*Menu mobile*/
         .btn-abrir-menu{
             position: fixed;
