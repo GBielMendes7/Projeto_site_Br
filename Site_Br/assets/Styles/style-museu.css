@@ -165,7 +165,6 @@ body {
 .torneio3 .torneio3__titulo{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 }
 .torneio3 .torneio3__titulo .torneio3__titulo__ti1{
     font-size: 50px;
@@ -177,6 +176,7 @@ body {
 .torneio3 .torneio3__titulo img{
     width: 42vw;
     height: 44vh;
+    margin-left: auto;
 }
 .torneio3 .torneio3__titulos{
     display: flex;
