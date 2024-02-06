@@ -1,0 +1,131 @@
+/* Menu*/
+.menu-mobile{
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #183579;
+    color: #fff; 
+    padding: 0px 0px 17px 0px;
+    z-index: 999;
+    box-shadow: -2px -2px 40px 7px black;
+    font-weight: bold;
+}
+.menu ul {
+    list-style: none;
+    margin-left: 7%;
+    padding: 0;
+}
+.menu li {
+    display: inline;
+    margin: 0 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: lighter;
+    position: relative;
+}
+.menu a:hover{
+    color: #C7FF00;
+}
+.menu a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #C7FF00;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.menu a:hover::after {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .menu{
+        display: none;
+    }
+
+    /*Menu mobile*/
+    .btn-abrir-menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background-color: #183579;
+        color: #fff; 
+        padding: 1px 2%;
+        z-index: 999;
+        text-align: end;
+    }
+    .btn-abrir-menu span img{
+        width: 50px;
+        cursor: pointer;
+    }
+    .menu-mobile{
+        background-color: #183579;
+        height: 100vh;
+        width: 0%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        overflow: hidden;
+        transition: 0.2s;
+        display: block;
+    }
+    .menu-mobile.abrir-menu{
+        width: 50%;
+    }
+    .menu-mobile.abrir-menu ~ .overlay-menu{
+        display: block;
+    }
+
+    .menu-mobile nav ul{
+        text-align: right;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .menu-mobile a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: lighter;
+        position: relative;
+        padding: 20px 4%;
+        display: block;
+    }
+    .menu-mobile a:hover{
+        color: #183579;
+        background-color: #C7FF00;
+    }
+
+    .menu-mobile .btn-fechar{
+        padding: 20px 4%;
+
+    }
+    .menu-mobile span{
+        color: #fff;
+        font-size: 40px;
+    }
+    .overlay-menu{
+        background: linear-gradient(94deg, rgba(0,0,0,0.7651435574229692) 0%, rgba(24,53,121,0.9948354341736695) 53%);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 998;
+        display: none;
+    }
+}

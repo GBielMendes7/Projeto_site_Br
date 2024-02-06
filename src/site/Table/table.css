@@ -1,0 +1,198 @@
+.title{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #163275;
+    padding: 50px;
+    color: #fff;
+}
+.title .title__progressBar{
+    z-index: 1;
+    font-size: 27px;
+    margin-left: 107px;
+}
+.title .title__progressBar span{
+    font-size: 20px;
+}
+.title .title__background-svg{
+    position: absolute;
+    left: -10%;
+}
+.title .title__background-svg img{
+    width: 50%;
+}
+
+.section-table{
+    margin: 50px 150px;
+}
+
+/* filter-bar */
+
+.filter-bar {
+    display: flex;
+    padding: 5px;
+    border: #163275 1px solid;
+    color: #163275;
+    overflow-x: auto;
+}
+.filter-bar .filter__league{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.filter-bar .filter__league span{
+    font-size: 13px;
+}
+
+.filter-bar .filter__league .filter__league__select {
+    padding: 10px 100px 10px 10px;
+    border: none;
+    border-right: #163275 2px solid;
+    font-size: 25px;
+    margin-left: 15px;
+    color: #163275;
+    outline: none;
+}
+.filter-bar .filter__reset{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+.filter-bar .filter__reset img{
+    height: 35px;
+}
+.filter-bar .filter__reset button{
+    border: none;
+    font-size: 25px;
+    color: #163275;
+    padding: 0 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/*tabela*/
+.game{
+    display: flex;
+    padding: 25px 0;
+}
+.game .table{
+    border: #163275 1px solid;
+    overflow-x: auto;
+}
+.game .table .table__title{
+    color: #163275;
+}
+.game .table .table__title th{
+    border-bottom: #163275 1px solid;
+    font-size: 15px;
+    padding: 15px;
+}
+.game .table .table__title .fisth{
+    display: flex;
+}
+.game .table .table__dados td{
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.td-img{
+    display: flex;
+    align-items: center;
+}
+.game .table .table__dados .td-img img{
+    width: 45px;
+    padding: 0 10px 0 10px;
+}
+.game .table .table__dados .td-v img{
+    width: 20px;
+    padding: 0 0 0 10px;
+}
+.game .table .table__dados .td-next img{
+    width: 40px;
+    padding: 0 10px 0 10px;
+}
+
+/*jogos*/
+.games{
+    margin-left: auto;
+}
+.games .games__title{
+    border: #163275 1px solid;
+    color: #163275;
+    text-align: center;
+    padding: 10px;
+}
+.games .games__container{
+    text-align: center;
+    font-size: 13px;
+    border: #163275 1px solid;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.games .games__container .games__score{
+    display: flex;
+    align-items: center;
+    padding: 15px
+}
+.games .games__container .games__score span{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.games .games__container .games__score img{
+    width: 60px;
+}
+
+@media screen and (max-width: 1100px){
+    .title .title__progressBar {
+        z-index: 1;
+        font-size: 20px;
+        margin-left: -15px;
+    }
+    .title .title__background-svg img {
+        width: 100%;
+    }
+    .section-table {
+        margin: 50px 30px;
+    }
+    .filter-bar .filter__reset {
+        padding: 10px;
+    }
+    .filter-bar {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border: #163275 1px solid;
+        color: #163275;
+    }
+    .game {
+        display: flex;
+        padding: 25px 0;
+        flex-direction: column;
+    }
+    .game .table .table__title th {
+        font-size: 15px;
+    }
+    .game .table .table__dados .td-img img {
+        width: 30px;
+    }
+    .game .table .table__dados .td-v img {
+        width: 10px;
+    }
+    .game .table .table__dados .td-next img {
+        width: 25px;
+    }
+    .games {
+        padding-top: 10px;
+        margin-left: auto;
+    }
+    .games .games__container .games__score img {
+        width: 39px;
+    }
+    .games .games__container .games__score span {
+        margin: 8px;
+    }
+
+}
