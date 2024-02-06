@@ -5,7 +5,7 @@ import iconMenu from './../../assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg';
 
 import { Link } from 'react-router-dom';
 
-function header() {
+function Header() {
     const [abrirMenu, setAbrirMenu] = useState(false);
 
     const handleBtnClick = () => {
@@ -54,4 +54,4 @@ function header() {
     );
 }
 
-export default header;
+export default Header;

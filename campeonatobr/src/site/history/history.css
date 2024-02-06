@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
 }
-.cont1 img{
+.cont1 .cont1__imgem img{
     width: 82vh;
 }
 .titulos{
