@@ -4,7 +4,7 @@
 .containerHistory {
     display: flex;
     flex-direction: column;
-    background-color: #060606;
+    background: linear-gradient(180deg, rgba(6,6,6,1) 85%, rgba(22,50,117,1) 96%);
 }
 .sectionHistory {
     position: relative;
@@ -52,7 +52,7 @@
     font-size: 30px;
 }
 .container1__cor{
-    background-color: #a30505;
+    background-color: #ADADAD;
     padding: 10px;
 }
 .container1 h1{
@@ -61,23 +61,12 @@
 .peso-titulo {
     font-weight: 100;
 }
-.container1 .detalhe{
-    background-color: #ADADAD;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 42vh;
-    left: 8vh;
-    width: 139px;
-    height: 216px;
-    z-index: -1;
-}
 .cont1{
     display: flex;
     flex-direction: column;
 }
 .cont1 .cont1__imgem img{
-    width: 82vh;
+    width: 43vw;
 }
 .titulos{
     display: flex;
@@ -121,7 +110,7 @@
     width: 45%;
 }
 .torneio2History .titulo .ti1{
-    font-size: 90px;
+    font-size: 80px;
     background-color: #a30505;
     padding: 20px;
     width: 46vw;
@@ -177,10 +166,10 @@
     margin: 20px 0;
 }
 .torneio3 .torneio3__titulo .torneio3__titulo__ti1{
-    font-size: 90px;
+    font-size: 80px;
     padding: 20px;
     width: 40vw;
-    background-color: #a30505;
+    background-color: #D16E15;
 }
 .torneio3 .torneio3__titulo img{
     width: 42vw;
@@ -212,7 +201,7 @@
     height: 70vh;
 }
 .toneio4History .toneio4History__text .text__cor{
-    background-color: #a30505;
+    background-color: #D4AB15;
     font-weight: 600;
     font-size: 50px;
     padding: 20px;
@@ -243,7 +232,7 @@
     margin-right:  20px;
 }
 .toneio5History .toneio5History__text .text__cor{
-    background-color: #a30505;
+    background-color: #0715AE;
     font-weight: 600;
     font-size: 50px;
     padding: 20px;
@@ -268,6 +257,8 @@
     font-size: 30px;
 }
 
+/* torneio6*/
+
 .toneio6History{
     display: flex;
     flex-direction: column;
@@ -283,10 +274,11 @@
 }
 .toneio6History .toneio6History__titulo .toneio6History__titulo__ti1{
     margin-left: 15px;
-    background-color: #a30505;
+    background-color: #7B00D4;
     font-weight: 600;
     font-size: 50px;
     padding: 20px;
+    width: 46vw;
 }
 .toneio6History .toneio6History__info{
     display: flex;
@@ -306,4 +298,181 @@
 .toneio6History .toneio6History__titulos h3{
     font-weight: 600;
     font-size: 30px;
+}
+
+/* torneio7*/
+.toneio7History{
+    display: flex;
+    color: #fff;
+    padding: 50px 0;
+}
+.toneio7History .toneio7History__text{
+    margin-right:  20px;
+}
+.toneio7History .toneio7History__text .text__cor{
+    background-color: #075685;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px;
+}
+.toneio7History .toneio7History__text p{
+    font-weight: 300;
+    font-size: 30px;
+}
+.toneio7History .toneio7History__img img{
+    width: 40vw;
+}
+.toneio7History .toneio7History__text .toneio7History__titulos{
+    display: flex;
+    align-items: flex-start;
+}
+.toneio7History .toneio7History__text .toneio7History__titulos h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+/* torneio8*/
+.toneio8History{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    color: #fff;
+}
+.toneio8History .toneio8History__info{
+    display: flex;
+    flex-direction: row;
+}
+.toneio8History .toneio8History__info .text{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.toneio8History .toneio8History__info img{
+    width: 44vw;
+}
+.toneio8History .toneio8History__titulo{
+    display: flex;
+    margin: 20px 0;
+}
+.toneio8History .toneio8History__titulo .toneio8History__titulo__ti1{
+    font-size: 50px;
+    padding: 20px;
+    width: 45vw;
+    background-color: #15D44B;
+}
+.toneio8History .toneio8History__titulo img{
+    width: 37vw;
+    margin-left: auto;
+}
+.toneio8History .toneio8History__titulos{
+    display: flex;
+    align-items: flex-start;
+}
+.toneio8History .toneio8History__titulos h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+/* torneio9*/
+.toneio9History{
+    padding: 50px 0;
+    display: flex;
+    color: #fff;
+}
+.toneio9History .toneio9History__info{
+    margin-right: 50px;
+    font-weight: 300;
+    font-size: 30px;
+}
+.toneio9History .toneio9History__info .toneio9History__titulo__ti1{
+    background-color: #690084;
+    padding: 10px;
+    font-size: 40px;
+}
+.toneio9History .toneio9History__info .toneio9History__titulos{
+    display: flex;
+    flex-direction: column;
+}
+.toneio9History .toneio9History__titulos .toneio9History__titulos__img img{
+    height: 42vh;
+}
+
+/* torneio10*/
+.toneio10History{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.toneio10History .toneio10History__titulo{
+    background-color: #c7ff00;
+    padding: 10px;
+    font-size: 40px;
+    color: #0715AE;
+}
+.toneio10History .toneio10History__campeoes{
+    display: flex;
+    margin: 10px 0;
+}
+.toneio10History .toneio10History__campeoes .toneio10History__campeoes__img{
+    width: 45vw;
+    height: 47vh;
+}
+.toneio10History .toneio10History__campeoes .titulos{
+    padding: 20px;
+}
+.toneio10History .toneio10History__info{
+    display: flex;
+}
+.toneio10History .toneio10History__info img{
+    width: 39vw;
+}
+.toneio10History .toneio10History__info .toneio10History__info__text{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+/* torneio11*/
+.toneio11History{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.toneio11History h2{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+}
+.toneio11History .toneio11History__infos{
+    display: flex;
+    z-index: 1;
+}
+.toneio11History .toneio11History__infos .toneio11History__infos__text{
+    margin-right: 15px;
+}
+.toneio11History .toneio11History__infos .toneio11History__infos__text p{
+    font-weight: 300;
+    font-size: 30px;
+}
+.toneio11History .toneio11History__infos .toneio11History__infos__text .toneio11History__titulos .taca h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+.toneio11History .toneio11History__infos .toneio11History__infos__imgs .cru{
+    width: 40vw;
+}
+.toneio11History .toneio11History__infos .toneio11History__infos__imgs .pal{
+    width: 40vw;
+}
+.toneio11History .toneio11History__campeoes{
+    z-index: 1;
+
+}
+.toneio11History .background-svg-History {
+    position: absolute;
+    z-index: 0;
 }

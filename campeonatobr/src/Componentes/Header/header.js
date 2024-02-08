@@ -22,10 +22,10 @@ function Header() {
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Tabela">Tabela</Link></li>
-                    <li><a>Estatísticas</a></li>
-                    <li><a>Noticias</a></li>
+                    <li><a href='#'>Estatísticas</a></li>
+                    <li><a href='#'>Noticias</a></li>
                     <li><Link to="/Historia">Historia</Link></li>
-                    <li><a>A CBF</a></li>
+                    <li><a href='#'>A CBF</a></li>
                 </ul>
             </nav>
 
@@ -41,10 +41,10 @@ function Header() {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/Tabela">Tabela</Link></li>
-                        <li><a>Estatísticas</a></li>
-                        <li><a>Noticias</a></li>
+                        <li><a href='#'>Estatísticas</a></li>
+                        <li><a href='#'>Noticias</a></li>
                         <li><Link to="/Historia">Historia</Link></li>
-                        <li><a>A CBF</a></li>
+                        <li><a href='#'>A CBF</a></li>
                     </ul>
                 </nav>
             </div>
