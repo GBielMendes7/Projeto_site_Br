@@ -13,6 +13,13 @@ import timePalmeiras from './../../assets/imagens/Time_do_Palmeiras_campeão_bra
 import peleSantos from './../../assets/imagens/pelx_santos_1.webp';
 import taca3 from './../../assets/imagens/Troféus da Taça Roberto Gomes Pedrosa de 1967 1968 1969 1970.JPG';
 import levantarTaca from './../../assets/imagens/6538908545_57ef7171f9.jpg';
+import taca4 from './../../assets/imagens/Troféus do Campeonato Brasileiro de 1971 1972 1973 1974.JPG';
+import Internacional from './../../assets/imagens/internacional-campeao-brasileiro-1975.jpg';
+import Goias from './../../assets/imagens/edson-taca_h4Iv0o9.webp';
+import taca5 from './../../assets/imagens/Taça das Bolinhas de 1975 a 1992 campeonato brasileiro.png';
+import zico from './../../assets/imagens/5ed3fd54c4f39.jpeg';
+import SP from './../../assets/imagens/download.jpg';
+
 
 import escudoAtmg from './../../assets/imagens/Serie A BR/g8.png';
 
@@ -156,7 +163,7 @@ function History() {
                             <div className="toneio4History__titulos">
                                 <div className="taca">
                                     <h3>Taça</h3>
-                                    <img src={taca3} alt="taça" />
+                                    <img src={taca4} alt="taça" />
                                 </div>
                                 <div className="times">
                                     <h3>Campeões</h3>
@@ -181,6 +188,82 @@ function History() {
                         </div>
 
                     </section>
+                    <search className="toneio5History">
+                        <div className="toneio5History__text">
+                            <div className="text__cor">
+                                <h1>Copa <br /> <span className="peso-titulo"> Brasil</span></h1>
+                            </div>
+                            <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. </p>
+                            <div className="toneio5History__titulos">
+                                <div className="taca">
+                                    <h3>Taça</h3>
+                                    <img src={taca5} alt="taça" />
+                                </div>
+                                <div className="times">
+                                    <h3>Campeões</h3>
+                                    <div className="time">
+                                        <img src={escudoAtmg} alt="Atletico-MG" />
+                                        <span>Atletico-MG 1937</span>
+                                        <img src={escudoAtmg} alt="Atletico-MG" />
+                                        <span>Atletico-MG 1937</span>
+                                    </div>
+                                    <div className="time">
+                                        <img src={escudoAtmg} alt="Atletico-MG" />
+                                        <span>Atletico-MG 1937</span>
+                                    </div>
+                                    <div className="time">
+                                        <img src={escudoAtmg} alt="Atletico-MG" />
+                                        <span>Atletico-MG 1937</span>
+                                    </div>
+                                    <div className="time">
+                                        <img src={escudoAtmg} alt="Atletico-MG" />
+                                        <span>Atletico-MG 1937</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="toneio5History__imgs">
+                            <img src={Internacional} alt="Logo" className="toneio5History__imgs__inter" />
+                            <img src={Goias} alt="Logo" className="toneio5History__imgs__goias" />
+                        </div>
+                    </search>
+
+                    <search className="toneio6History">
+                        <div className="toneio6History__titulo">
+                            <img src={zico} alt="Campeões" />
+                            <div className="toneio6History__titulo__ti1">
+                                <h1>Taça <br /> <span className="peso-titulo">De Ouro</span></h1>
+                            </div>
+                        </div>
+                        <div className="toneio6History__info">
+                            <img src={SP} alt="Afonsinho" />
+                            <div className="toneio6History__text">
+                                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. </p>
+                            </div>
+                        </div>
+                        <div className="toneio6History__titulos">
+                            <div className="taca">
+                                <h3>Taça</h3>
+                                <img src={taca5} alt="taça" />
+                            </div>
+                            <div className="times">
+                                <h3>Campeões</h3>
+                                <div className="time">
+                                    <img src={escudoAtmg} alt="Atletico-MG" />
+                                    <span>Atletico-MG 1937</span>
+                                    <img src={escudoAtmg} alt="Atletico-MG" />
+                                    <span>Atletico-MG 1937</span>
+                                </div>
+                                <div className="time">
+                                    <img src={escudoAtmg} alt="Atletico-MG" />
+                                    <span>Atletico-MG 1937</span>
+                                    <img src={escudoAtmg} alt="Atletico-MG" />
+                                    <span>Atletico-MG 1937</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </search>
 
 
                 </section>
